@@ -1,15 +1,14 @@
 {
   "name": "node-starter-project",
   "version": "1.0.0",
-  "description": "A starter project for node applications with a few basic tasks defined.",
+  "description": "README v0.0 / 17 FEBRUARY 2017",
   "main": "src/app.js",
   "author": "Kunal Bhuwalka",
   "license": "MIT",
-  "description": "README v0.0 / 17 FEBRUARY 2017",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev-start": "node_modules/.bin/gulp dev-serve",
-    "nodemon-start": "node_modules/.bin/nodemon start",
+    "dev-start": "gulp dev-serve",
+    "nodemon-start": "nodemon start",
     "start": "node src/app.js"
   },
   "keywords": [
@@ -30,5 +29,13 @@
     "body-parser": "^1.16.1",
     "compression": "^1.6.2",
     "express": "^4.14.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pirateship14/starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pirateship14/starter/issues"
+  },
+  "homepage": "https://github.com/pirateship14/starter#readme"
 }
