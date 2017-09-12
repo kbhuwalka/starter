@@ -7,9 +7,10 @@
   "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev-start": "gulp dev-serve",
-    "nodemon-start": "nodemon start",
-    "start": "node src/app.js"
+    "dev-start": "node_modules/.bin/gulp dev-serve",
+    "nodemon-start": "node_modules/.bin/nodemon",
+    "start": "node src/app.js",
+    "build": "node_modules/.bin/gulp build"
   },
   "keywords": [
     "starter"
@@ -21,6 +22,7 @@
     "gulp-clean-css": "^3.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-copy": "^1.0.0",
+    "gulp-nodemon": "^2.2.1",
     "gulp-sourcemaps": "^2.4.1",
     "gulp-uglify": "^2.0.1",
     "gulp-util": "^3.0.8"
@@ -28,14 +30,8 @@
   "dependencies": {
     "body-parser": "^1.16.1",
     "compression": "^1.6.2",
-    "express": "^4.14.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pirateship14/starter.git"
-  },
-  "bugs": {
-    "url": "https://github.com/pirateship14/starter/issues"
-  },
-  "homepage": "https://github.com/pirateship14/starter#readme"
+    "express": "^4.14.1",
+    "pug": "^2.0.0-beta11",
+    "request": "^2.79.0"
+  }
 }
